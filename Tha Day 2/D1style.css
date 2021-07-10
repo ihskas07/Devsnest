@@ -1,0 +1,33 @@
+p, p1, p2, p3, ul, h1, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	}
+h1	{
+    background-color: lightblue;
+	color: red;
+	}
+p1 {
+    background-color: yellow;
+	}
+p2, p3 {
+    background-color: pink;
+	}
+.center {
+  text-align: center;
+  font-size: 35px;
+  font-weight
+}
+table, th, td {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+body {
+  background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Blue-White-Background-Image.jpg');
+  border-style: double;
+}
