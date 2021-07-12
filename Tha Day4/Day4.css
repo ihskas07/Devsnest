@@ -1,0 +1,43 @@
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 40vw;
+	
+	width: 40vw;
+	background: url('https://toppng.com/uploads/preview/blank-clock-template-11549790539accojwo37y.png');
+	
+	background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: red;
+	border-radius: 12px;
+	transform-origin: bottom;
+}
+
+#hour {
+	width: 2.0%;
+	height: 25%;
+	top: 25%;
+	left: 48.85%;
+	opacity: 1.0;
+}
+
+#minute {
+	width: 1.6%;
+	height: 30%;
+	top: 19%;
+	left: 48.9%;
+	opacity: 1.0;
+}
+
+#second {
+	width: 1%;
+	height: 40%;
+	top: 9%;
+	left: 49.25%;
+	opacity: 1.0;
+}
