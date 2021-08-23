@@ -22,10 +22,8 @@ let Bind = test2.b.bind(test1, 3, 2);
 Bind();
 
 
-
 Q2) Try to use different events on objects, you can refer to this link
-var myFunction = () => 
-{
+var myFunction = () => {
     alert("This document is now being printed");
 }
 var disapper = () => {
