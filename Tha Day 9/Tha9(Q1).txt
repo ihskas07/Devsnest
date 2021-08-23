@@ -20,3 +20,16 @@ test2.b.call(test1, 1, 2);
 test2.b.apply(test1, [1, 2]);
 let Bind = test2.b.bind(test1, 3, 2);
 Bind();
+
+
+
+Q2) Try to use different events on objects, you can refer to this link
+var myFunction = () => 
+{
+    alert("This document is now being printed");
+}
+var disapper = () => {
+    // as the image will not be present in the deployed directly 
+    alert("server can not find the requested image!!!");
+    document.getElementById("disapper").style.display = "none";
+}
