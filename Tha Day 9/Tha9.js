@@ -70,7 +70,7 @@ var boxClick = (id) => {
 }
 var set = false;
 function timer() {
-    var sec = 22;
+    var sec = 15;
     var timer = setInterval(function () {
         document.getElementById('safeTimerDisplay').innerHTML = '00:' + sec;
         sec--;
