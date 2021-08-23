@@ -1,0 +1,9 @@
+// Q2.Try to use different events on objects, you can refer to this link
+var myFunction = () => {
+    alert("This document is now being printed");
+}
+var disapper = () => {
+    // as the image will not be present in the deployed directly 
+    alert("server can not find the requested image!!!");
+    document.getElementById("disapper").style.display = "none";
+}
