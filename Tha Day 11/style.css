@@ -1,0 +1,86 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 20%, rgba(217,150,163,0.24693627450980393) 70%);
+    color: lightgray brown;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.Quiz{
+    text-align: center;    
+}
+
+
+.Quiz input{
+    border-style: none;
+    width: 100%;
+}
+
+.Quiz table{
+    margin: 0 auto;
+    padding: 10px ;
+}
+
+.PInfo tr{
+    margin: 10px;
+ }
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+button{
+    padding:5px 10px;
+    border-style: none;
+    border-radius: 30%;
+}
+button:hover{
+    background-color:royalblue;
+    border-style: none;
+    color: white;
+    border-radius: 30%;
+}
+ 
+button:active{
+
+    margin-top: 2px !important;
+    border-radius: 30%;
+}
+.hidden{
+    display: none;
+}
+.Questions{
+    background-color: violet;
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify ;
+    padding-left: 2%;
+    display: none;    
+}
+.Questions h1{
+    text-align: center;
+}
+@media only screen and (max-width:600px){
+    .Questions{
+        width: 100%;
+    }
+    .aa{
+        position: absolute !important;
+        top: 10px;
+        left: 0px !important;
+        right: 20%;
+    }
+}
+.aa{
+    position: absolute;
+    top: 10px;
+    left: 20%; 
+    display: block;
+    
+}
+.Result{
+display: block;
+}
